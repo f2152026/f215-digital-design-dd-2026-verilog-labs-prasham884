@@ -23,3 +23,9 @@ module FA_Gate(
   xor #5 (ps,  a,   b);
 
 endmodule
+
+
+// waveform doesn't change is 1(b) and 1(c) because verilog executes statements
+// parallelly and not sequentially so changing the order does not matter because the circuit
+// remains the same no matter in what order we write. In case of adding the delay, since 
+// statements are executed sequentially, the delay is also executed together for all the gates.
