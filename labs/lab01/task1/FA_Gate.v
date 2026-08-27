@@ -21,6 +21,7 @@ module FA_Gate(
   or  #5 (cout, pc1, pc2);
   and #5 (pc1, a,   b);
   xor #5 (ps,  a,   b);
+
 endmodule
 
 // waveform doesn't change is 1(b) and 1(c) because verilog executes statements
