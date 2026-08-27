@@ -27,3 +27,4 @@ endmodule
 // parallelly and not sequentially so changing the order does not matter because the circuit
 // remains the same no matter in what order we write. In case of adding the delay, since 
 // statements are executed sequentially, the delay is also executed together for all the gates.
+
